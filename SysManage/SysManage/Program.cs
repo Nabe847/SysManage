@@ -1,4 +1,5 @@
 ﻿using System;
+using SysInfo;
 
 namespace SysManage
 {
@@ -6,7 +7,9 @@ namespace SysManage
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(SystemInformation.MachineName);
+            Console.WriteLine(SystemInformation.UserName);
+            Console.WriteLine(SystemInformation.Platform);
         }
     }
 }
