@@ -4,6 +4,9 @@ using System.Text;
 
 namespace SysInfo
 {
+    /// <summary>
+    /// 現在のシステム環境に関する情報を提供します。
+    /// </summary>
     public static class SystemInformation
     {
         /// <summary>
